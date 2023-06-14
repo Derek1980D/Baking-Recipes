@@ -8,6 +8,8 @@
     <title>Love Baking</title>
     <!-- stylesheet link -->
     <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- Font awsome script-->
+    <script src="https://kit.fontawesome.com/ac3f7d9d3e.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -18,14 +20,20 @@
         <h1>Love Baking</h1>
         <!-- Header Links-->
         <div class="links-wrapper">
-            <ul class="links-style">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="newsletter.html">News Letter</a>
-                </li>
-            </ul>
+            <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="newsletter.html">Newsletter</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Recipes
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="cupcakerecipe.html">Cupcakes</a>
+                        <a href="cookierecipe.html">Cookies</a>
+                        <a href="brownierecipe.html">Brownies</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!-- Main page layout -->
@@ -80,5 +88,24 @@
         </div>
     </main>
     <!-- Social links footer Layout -->
-    <footer>social links footer</footer>
+    <footer class="footer">
+        <ul class="social-networks">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit Our Facebook page(opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit Our Twitter page(opens in a new tab)"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit Our YouTube page(opens in a new tab)"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit Our Instagram page(opens in a new tab)"><i class="fab fa-instagram-square"></i></a>
+            </li>
+        </ul>
+    </footer>
 </body>
