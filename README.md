@@ -13,21 +13,38 @@ __Navigation Bar__
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   - The recipe links are ina  dropdown box
 
-![Responsive Mockup](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/navbar.png) 
+  ![Nav Bar](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/navbar.png) 
 
-- __The Footer__ 
+__Newsletter Signup__ 
+
+  - A form that requires valid info to sign up for a newsletter, on sucessfull submission the user will be taken to a thank you page.
+   ![Nav Bar](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/news_.png) 
+   ![Nav Bar](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/thanks_.png) 
+
+__Footer Social Links__ 
+
   - The footer section includes links to the relevant social media sites for Love Baking. The links will open to a new tab to allow easy navigation for the user.
 
-  ![Responsive Mockup](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/social_links.png) 
+  ![Social links](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/social_links.png) 
+
+## Testing
+
+  - Tested all page links and navigation to make sure functionality works.
+  - Tested newsletter signup requires valid info before showing the thank you page.
+  - Tested responivness for mobile viewing.
 
  ### Validator Testing 
 
 - HTML
-  -Some  errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fderek1980d.github.io%2FBaking-Recipes%2Findex.html)
+
+  - Some errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fderek1980d.github.io%2FBaking-Recipes%2Findex.html)
+
+   ![Validation errors](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/recipe_errors.png) 
 
   Fixed by making h2 elements list items. 
 
 - CSS
+
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 
