@@ -58,3 +58,50 @@ body {
         margin-right: auto;
     }
 }
+
+/* Home page styling */
+.cupcake-recipes {
+    margin: auto;
+    border: 2px solid;
+    width: 80%;
+    text-align: center;
+    background-color: white;
+}
+
+
+.cookie-recipes {
+    margin: auto;
+    border: 2px solid;
+    width: 80%;
+    text-align: center;
+    background-color: white;
+}
+
+.brownie-recipes {
+    margin: auto;
+    border: 2px solid;
+    width: 80%;
+    text-align: center;
+    background-color: white;
+}
+
+.cupcake-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.brownie-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.cookie-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
