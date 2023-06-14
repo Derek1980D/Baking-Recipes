@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+
 }
 
 /* Header */
@@ -12,10 +14,12 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .flex-spacer {
     width: 33%;
     margin-right: auto;
 }
+
 .header h1 {
     width: 33%;
     text-align: center;
@@ -23,6 +27,7 @@ body {
     font-size: 2em;
     background-color: rgba(243, 190, 232, 0.8);
 }
+
 .links-wrapper {
     display: flex;
     width: 33%;
@@ -30,21 +35,25 @@ body {
     justify-content: right;
     padding-right: 20px;
 }
+
 .links-wrapper a {
     text-align: center;
     background-color: rgba(243, 190, 232, 0.8);
 }
+
 .links-style {
     list-style-type: none;
     display: inline-block;
     text-align: left;
 }
+
 /* media query for responsiveness */
 @media screen and (max-width: 480px) {
     .header {
         height: 90px;
         padding: 0px 10px;
     }
+
     .header h1 {
         font-size: 20px;
         padding: 1px;
@@ -52,6 +61,7 @@ body {
         text-align: right;
         margin-right: auto;
     }
+
     .flex-spacer {
         width: 0%;
         margin-right: auto;
@@ -66,6 +76,7 @@ body {
     text-align: center;
     background-color: white;
 }
+
 .cookie-recipes {
     margin: auto;
     border: 2px solid;
@@ -73,6 +84,7 @@ body {
     text-align: center;
     background-color: white;
 }
+
 .brownie-recipes {
     margin: auto;
     border: 2px solid;
@@ -80,18 +92,21 @@ body {
     text-align: center;
     background-color: white;
 }
+
 .cupcake-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
 .brownie-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
 .cookie-image {
     display: block;
     margin-left: auto;
@@ -103,40 +118,83 @@ body {
 .recipe-heading {
     text-align: center;
 }
+
 .recipe-main {
     width: 70%;
     margin: auto;
 }
+
 .row {
     display: flex;
 }
+
 .column-one {
     flex: 20%;
 }
-/* alternate background colours of list items to make it easier to read? */
+
+/* Alternate background colours of list items to make it easier to read? */
 .column-two li:nth-child(even) {
     background-color: rgba(156, 224, 234, 0.334);
 }
+
 .column-one li:nth-child(even) {
     background-color: rgba(241, 168, 226, 0.352);
 }
+
 .column-two {
     flex: 80%;
     margin-right: 50px;
 }
+
 /* Media query for responsiveness */
-/* media query for responsiveness */
 @media screen and (max-width: 480px) {
     .row {
         flex-wrap: wrap;
     }
+
     .column-one {
         margin-right: 20px;
     }
+
     .column-two {
         margin-right: 20px;
     }
+
     .recipe-main {
         width: 95%;
     }
+}
+
+/* Newsletter and Thank you page */
+.news-main {
+    margin: auto;
+}
+
+.signup-form {
+    text-align: center;
+}
+
+.thank-you {
+    text-align: center;
+}
+/* Footer area styling */
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+    background-color: rgba(243, 190, 232, 0.8);
+}
+
+.social-networks>li {
+    display: inline-block;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: auto;
+    padding: 4%;
+    letter-spacing: 25px;
+    color: #3a3a3a;
 }
