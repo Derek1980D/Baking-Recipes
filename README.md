@@ -2,6 +2,7 @@
 
 Love Baking is a website designed for people to find some baking recipes.
 You can also sign up for a Baking Newsletter!
+https://derek1980d.github.io/Baking-Recipes/index.html
 
 ![Responsive Mockup](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/Mockup.png)
 
