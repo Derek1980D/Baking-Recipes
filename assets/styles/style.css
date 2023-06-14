@@ -39,7 +39,7 @@ body {
     display: inline-block;
     text-align: left;
 }
-/* media query for mobile */
+/* media query for responsiveness */
 @media screen and (max-width: 480px) {
     .header {
         height: 90px;
@@ -53,7 +53,6 @@ body {
         margin-right: auto;
     }
     .flex-spacer {
-
         width: 0%;
         margin-right: auto;
     }
@@ -67,8 +66,6 @@ body {
     text-align: center;
     background-color: white;
 }
-
-
 .cookie-recipes {
     margin: auto;
     border: 2px solid;
@@ -76,7 +73,6 @@ body {
     text-align: center;
     background-color: white;
 }
-
 .brownie-recipes {
     margin: auto;
     border: 2px solid;
@@ -84,24 +80,63 @@ body {
     text-align: center;
     background-color: white;
 }
-
 .cupcake-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
 .brownie-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
 .cookie-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+/* Recipe pages styling */
+.recipe-heading {
+    text-align: center;
+}
+.recipe-main {
+    width: 70%;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
+.column-one {
+    flex: 20%;
+}
+/* alternate background colours of list items to make it easier to read? */
+.column-two li:nth-child(even) {
+    background-color: rgba(156, 224, 234, 0.334);
+}
+.column-one li:nth-child(even) {
+    background-color: rgba(241, 168, 226, 0.352);
+}
+.column-two {
+    flex: 80%;
+    margin-right: 50px;
+}
+/* Media query for responsiveness */
+/* media query for responsiveness */
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    .column-one {
+        margin-right: 20px;
+    }
+    .column-two {
+        margin-right: 20px;
+    }
+    .recipe-main {
+        width: 95%;
+    }
 }
