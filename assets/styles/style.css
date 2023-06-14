@@ -23,7 +23,7 @@ body {
 .header h1 {
     width: 33%;
     text-align: center;
-    padding: auto;
+   
     font-size: 2em;
     background-color: rgba(243, 190, 232, 0.8);
 }
