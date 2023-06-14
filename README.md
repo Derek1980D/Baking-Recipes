@@ -18,7 +18,7 @@ __Navigation Bar__
 __Newsletter Signup__ 
 
   - A form that requires valid info to sign up for a newsletter, on sucessfull submission the user will be taken to a thank you page.
-  
+
    ![Newsletter Signup](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/news.png) 
    ![Thanks](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/thanks.png) 
 
@@ -44,6 +44,9 @@ __Footer Social Links__
 
   Fixed by making h2 elements list items. 
 
+  ![Validation errors](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/errors_2.png) 
+
+  Fixed by adding closing tags.
 - CSS
 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
