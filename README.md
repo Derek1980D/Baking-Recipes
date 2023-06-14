@@ -18,8 +18,8 @@ __Navigation Bar__
 __Newsletter Signup__ 
 
   - A form that requires valid info to sign up for a newsletter, on sucessfull submission the user will be taken to a thank you page.
-   ![Nav Bar](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/news_.png) 
-   ![Nav Bar](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/thanks_.png) 
+   ![Newsletter Signup](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/news.png) 
+   ![Thanks](https://github.com/Derek1980D/Baking-Recipes/blob/main/assets/images/thanks.png) 
 
 __Footer Social Links__ 
 
